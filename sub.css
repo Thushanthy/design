@@ -3,6 +3,8 @@ h1{
     color:rebeccapurple;
     padding:20px;
     border:10px;
+    height:500px;
+    background:url("https://i.ytimg.com/vi/-MKapbz0GIo/maxresdefault.jpg");
 }
 
 body {
@@ -50,5 +52,37 @@ body {
 .main_it a{
     text-decoration: none;
     color: rgb(8, 73, 35);
+    font-weight: bold;
+    padding: 3px 0;
 
+
+}
+.main_st a::after{
+ color:rebeccapurple;
+ content: "(link)";
+}
+.main_st a:hover,
+.main_st a:active{
+    color:white;
+    border-bottom: solid white 5px;
+}
+
+
+    
+h2::first-letter{
+    color:red;
+    font-size: 40px;
+}
+.main_ss a{
+    color: white;
+    background: rgb(17, 240, 54);
+    border-radius:8px ;
+    padding: 8px 16px;
+
+}
+.main_ss a:hover,
+.main_ss a:active{
+    color:red;
+    background: white;
+    border:none;
 }
